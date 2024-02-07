@@ -1,0 +1,48 @@
+# 지리정보 03_html
+<!DOCTYPE html>
+<html>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    div {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    input {
+        width: 450px;
+        height: 28px;
+        padding: 1px;
+        font-size: 15px;
+        border: 1px solid #000000;
+    }
+    button {
+        height: 32px;
+        padding: 3px;
+    }
+</style>
+<head>
+    <title>장소 찾기</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<div class="container">
+    <h1>장소 찾기</h1>
+    <form method="POST">
+        <input type="text" name="keyword" placeholder="검색어를 입력하세요">
+        <button type="submit">검색</button>
+    </form>
+</div>
+</body>
+</html>
+
+
