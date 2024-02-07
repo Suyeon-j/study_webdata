@@ -1,3 +1,4 @@
+# 지리정보 01
 import folium
 import pandas as pd
 
